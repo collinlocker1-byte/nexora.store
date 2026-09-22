@@ -1,10 +1,10 @@
 const products=[
-{name:"Magnetic Charging Stand",price:29.99,image:"images/charging-stand.svg",tag:"BEST SELLER",desc:"A clean, compact stand for charging and viewing your phone."},
-{name:"RGB Desk Light",price:24.99,image:"images/rgb-desk-light.svg",tag:"POPULAR",desc:"Add adjustable ambient light to your desk or room."},
-{name:"Foldable Phone Stand",price:16.99,image:"images/phone-stand.svg",tag:"EVERYDAY",desc:"A portable stand for videos, calls, recipes and more."},
-{name:"3-in-1 Charging Dock",price:34.99,image:"images/charging-dock.svg",tag:"NEW",desc:"Keep compatible devices organized in one compact spot."},
-{name:"Creator Ring Light",price:27.99,image:"images/ring-light.svg",tag:"POPULAR",desc:"Simple lighting for photos, calls and short-form videos."},
-{name:"Cable Organizer Kit",price:12.99,image:"images/cable-kit.svg",tag:"ESSENTIAL",desc:"Keep your desk cables tidy and easier to manage."}
+{name:"Magnetic Charging Stand",price:29.99,image:"charging-stand.svg",tag:"BEST SELLER",desc:"A clean, compact stand for charging and viewing your phone."},
+{name:"RGB Desk Light",price:24.99,image:"rgb-desk-light.svg",tag:"POPULAR",desc:"Add adjustable ambient light to your desk or room."},
+{name:"Foldable Phone Stand",price:16.99,image:"phone-stand.svg",tag:"EVERYDAY",desc:"A portable stand for videos, calls, recipes and more."},
+{name:"3-in-1 Charging Dock",price:34.99,image:"charging-dock.svg",tag:"NEW",desc:"Keep compatible devices organized in one compact spot."},
+{name:"Creator Ring Light",price:27.99,image:"ring-light.svg",tag:"POPULAR",desc:"Simple lighting for photos, calls and short-form videos."},
+{name:"Cable Organizer Kit",price:12.99,image:"cable-kit.svg",tag:"ESSENTIAL",desc:"Keep your desk cables tidy and easier to manage.
 ];
 let cart=[];
 const money=n=>`$${n.toFixed(2)}`;
